@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        
+        <div class="songList">
+            
+            <div>
+                <div class="songItem">
+                    <img src="download.jpeg" alt="1">
+                    <span>One Night in Dubai</span>
+                    <span class="songlistplay"><span class="timestamp">02:42 <i id="0" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="pln.jpg" alt="1">
+                    <span>Love Me Like You Do</span>
+                    <span class="songlistplay"><span class="timestamp">04:11 <i id="1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="soniyo.jpeg" alt="1">
+                    <span>Soniyo</span>
+                    <span class="songlistplay"><span class="timestamp">05:33 <i id="2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ddg.jpeg" alt="1">
+                    <span>Dil Diyan Gallan</span>
+                    <span class="songlistplay"><span class="timestamp">04:20 <i id="3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="ht.jpeg" alt="1">
+                    <span>Hum Tum</span>
+                    <span class="songlistplay"><span class="timestamp">05:07 <i id="4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="lmly.jpeg" alt="1">
+                    <span>Let Me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:27 <i id="5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="tsy.jpeg" alt="1">
+                    <span>Tere Saang Yaara</span>
+                    <span class="songlistplay"><span class="timestamp">05:00 <i id="6" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="bang bang.jpeg" alt="1">
+                    <span>Bang Bang</span>
+                    <span class="songlistplay"><span class="timestamp">04:09 <i id="7" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="akhiyan.jpeg" alt="1">
+                    <span>Mitraz</span>
+                    <span class="songlistplay"><span class="timestamp">03:10 <i id="8" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img src="zdpk.jpeg" alt="1">
+                    <span>Zindagi do Pal Ki</span>
+                    <span class="songlistplay"><span class="timestamp">04:20 <i id="9" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!--fontawesome icons-->
+            <i class="fa-solid fa-3x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="song.gif" width="62px" alt="" id="gif"> <span id="masterSongName">One Night in Dubai</span> 
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/47dc732c06.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    
